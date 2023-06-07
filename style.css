@@ -1,0 +1,46 @@
+body {
+    margin: 25px;
+    padding: 0;
+    
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    }
+  
+.calculator {
+    max-width: 200px;
+    margin: 0 auto;
+    
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  #botaozero {
+    height: 100px;
+  margin-bottom: 5px;
+  }
+  
+  #botaoponto {
+    height: 100px;
+  }
+
+  #botaoigual {
+    height: 100px;
+  }
+  #divisao {
+    margin-top: 5px;
+  }
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+  }
+  
